@@ -57,7 +57,7 @@ FEATURE_COLUMNS = OrderedDict(
 CLASSES_COLUMNS = OrderedDict({"class": int})
 
 
-# %% 
+# %%
 # Let us declare a task that accepts a CSV file with the previously defined
 # columns and converts it to a typed schema.
 # An example CSV file is available at
@@ -92,7 +92,7 @@ def split_traintest_dataset(
 
 # %%
 # It is also possible to defined the output file type. This is useful in
-# combining tasks, where one task may only accept models serialized in ``.joblib.dat`` 
+# combining tasks, where one task may only accept models serialized in ``.joblib.dat``
 MODELSER_JOBLIB = typing.TypeVar("joblib.dat")
 
 
