@@ -11,8 +11,9 @@ import pandas
 from flytekit import task, workflow
 
 # %%
-# Flytekit allows users to directly use pandas.dataframe in their tasks as long as they import
-# Note: # noqa: F401. This is to ignore pylint complaining about unused imports
+# Flytekit allows user-defined tasks to directly use pandas.dataframe in their tasks as long as they import
+# .. note::
+#    # noqa: F401. This is to ignore pylint complaining about unused imports
 from flytekit.types import schema  # noqa: F401
 
 
