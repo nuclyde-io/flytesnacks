@@ -1,5 +1,4 @@
 """
-.. _hosted_multi_images:
 
 05: Scheduling workflow executions with launch plans
 ----------------------------------------------------
